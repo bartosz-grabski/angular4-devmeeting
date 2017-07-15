@@ -26,7 +26,7 @@ export class ProductsComponent {
 
   public products: Array<Product> = [
     new ProductImpl('prod2',10),
-    new ProductImpl('prod3',10),
+    new ProductImpl('prod3',10,false,['tag1','tag2']),
     new ProductImpl('prod4',10)
   ];
 }

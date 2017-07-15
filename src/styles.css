@@ -18,6 +18,17 @@
   overflow: hidden;
 }
 
+
+.product-tags {
+  display: flex;
+}
+
+.product-tags > div {
+  margin: 10px;
+  font-size: 14px;
+  color: red;
+}
+
 .product.promoted {
   border: 2px solid #ccc;
 }
