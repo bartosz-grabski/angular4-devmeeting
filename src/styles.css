@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+.product-list {
+  margin : 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.product {
+  display: inline-block;
+  list-style: none;
+  margin : 0;
+  padding: 30px;
+  border : 1px solid #c0c0c0;
+  border-radius: 15px;
+  margin-right: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.product:hover {
+  background : #c0c0c0;
+}
+
+.promoted::after {
+  width:10px;
+  height:10px;
+  position: absolute;
+  background: #ccc;
+  right:0;
+  bottom:0;
+}
