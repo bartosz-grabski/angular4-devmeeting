@@ -18,6 +18,10 @@
   overflow: hidden;
 }
 
+.product.promoted {
+  border: 2px solid #ccc;
+}
+
 .product:hover {
   background : #c0c0c0;
 }

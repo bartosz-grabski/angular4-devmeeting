@@ -1,4 +1,4 @@
-interface Product {
+export interface Product {
   title : string;
   price : number;
 }
@@ -6,6 +6,7 @@ interface Product {
 export class ProductImpl implements Product {
   constructor (
     public title : string,
-    public price : number
+    public price : number,
+    public isPromoted: boolean = false
   ) {}
 }
