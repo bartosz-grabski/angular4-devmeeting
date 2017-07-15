@@ -6,6 +6,18 @@
   list-style-type: none;
 }
 
+.up > div:after {
+  content:'<';
+  width: 10px;
+  height: 10px;
+}
+
+.down > div:after {
+  content:'>';
+  width: 10px;
+  height: 10px;
+}
+
 .product {
   display: inline-block;
   list-style: none;
